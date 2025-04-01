@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      icon, chuveiro_0: 6918305482961786772
+      icon, chuveiro_1: 1613478979763883926
+      icon, chuveiro_2: -4220865848985732648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

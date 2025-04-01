@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      icon, morada_0: -753478530471584252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
