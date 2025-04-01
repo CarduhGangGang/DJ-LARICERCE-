@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "logo (p\xE1gina inicial)_0": 2559239274531406698
+      "logo (p\xE1gina inicial)_1": -8443982058158975139
+      "logo (p\xE1gina inicial)_2": 9172163732591428843
+      "logo (p\xE1gina inicial)_3": -288795075421438455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
