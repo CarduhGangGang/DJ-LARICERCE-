@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 515d038d8ffdb1c4abe772c4acc5aece
+guid: e830f750b0a574f4a80139ab5b6fceff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2072727348455753578
-    second: Laricerce 2_0
+      213: 6918305482961786772
+    second: icon, chuveiro_0
+  - first:
+      213: 1613478979763883926
+    second: icon, chuveiro_1
+  - first:
+      213: -4220865848985732648
+    second: icon, chuveiro_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,33 +103,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Laricerce 2_0
+      name: icon, chuveiro_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1137
-        height: 210
+        width: 47
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 698be0755713c33e0800000000000000
-      internalID: -2072727348455753578
+      spriteID: 49713979e22c20060800000000000000
+      internalID: 6918305482961786772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon, chuveiro_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fc261659a346610800000000000000
+      internalID: 1613478979763883926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon, chuveiro_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9b0aa9fd87c65c0800000000000000
+      internalID: -4220865848985732648
       vertices: []
       indices: 
       edges: []
@@ -173,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Laricerce 2_0: -2072727348455753578
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
