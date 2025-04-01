@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3aaebe607d0102a4a94de3c7f3f32100
+guid: 4996949c82af9a44cbe53fb25d196586
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 83203617696994478
-    second: casa2_0
+      213: -8385648909473177444
+    second: LocationsIcons_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: casa2_0
+      name: LocationsIcons_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 673
-        height: 748
+        width: 93
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea45bdcdf39972100800000000000000
-      internalID: 83203617696994478
+      spriteID: c90a5b3feb030ab80800000000000000
+      internalID: -8385648909473177444
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      casa2_0: 83203617696994478
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/In\xEDcio.unity"
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Mapa.unity
+    guid: 33cb105249c111940bebb0555ae1ae63
+  - enabled: 1
+    path: Assets/Scenes/Compartimento.unity
+    guid: 51a864e689d68494999c6ac5aff6180c
+  - enabled: 1
+    path: Assets/Scenes/GridDivisoes.unity
+    guid: ce2739db2885fb749aec4de889ab6f30
+  - enabled: 1
+    path: Assets/Scenes/Valmira.unity
+    guid: f83fb5aba7605ff4b962b72ebd8495c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
