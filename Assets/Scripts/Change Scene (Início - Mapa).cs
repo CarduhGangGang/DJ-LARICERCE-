@@ -2,11 +2,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LoadValmira : MonoBehaviour
+public class LoadMapa : MonoBehaviour
 {
 	public void ChangeScene()
 	{
-		SceneManager.LoadScene("Valmira"); // Certifique-se de que esse nome est� correto no Build Settings
+		SceneManager.LoadScene("Mapa"); // Certifique-se de que a cena "Mapa" está no Build Settings
 	}
 
 	void Start()
@@ -16,5 +16,10 @@ public class LoadValmira : MonoBehaviour
 		{
 			button.onClick.AddListener(ChangeScene);
 		}
+		else
+		{
+			Debug.LogWarning("Nenhum botão encontrado no GameObject " + gameObject.name);
+		}
 	}
 }
+

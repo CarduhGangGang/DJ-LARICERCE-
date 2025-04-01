@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Valmira.unity
     guid: f83fb5aba7605ff4b962b72ebd8495c6
+  - enabled: 1
+    path: Assets/Scenes/Serdalia.unity
+    guid: 37641ec44a421c046aeb6c5ab4f81e2e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

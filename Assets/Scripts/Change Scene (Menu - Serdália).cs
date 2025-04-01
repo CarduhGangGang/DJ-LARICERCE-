@@ -2,11 +2,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LoadValmira : MonoBehaviour
+public class LoadSerdalia : MonoBehaviour
 {
 	public void ChangeScene()
 	{
-		SceneManager.LoadScene("Valmira"); // Certifique-se de que esse nome est· correto no Build Settings
+		SceneManager.LoadScene("Serdalia"); // Certifique-se de que esse nome est√° correto no Build Settings
 	}
 
 	void Start()
