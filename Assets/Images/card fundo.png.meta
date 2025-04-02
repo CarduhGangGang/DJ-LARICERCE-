@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4988dc0bc4799cf40a55edbb4b16e655
+guid: b478f037b2edc4244bb0fc0b32756914
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1412758112957470827
-    second: casa4 (2)_0
+      213: 4180695144942869551
+    second: card fundo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: casa4 (2)_0
+      name: card fundo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 670
-        height: 745
+        width: 715
+        height: 1137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b689164c4002b9310800000000000000
-      internalID: 1412758112957470827
+      spriteID: f2c15848510d40a30800000000000000
+      internalID: 4180695144942869551
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      casa4 (2)_0: 1412758112957470827
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
