@@ -18,9 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GridDivisoes.unity
     guid: ce2739db2885fb749aec4de889ab6f30
   - enabled: 1
-    path: Assets/Scenes/ValmiraEXT.unity
-    guid: 126f465dcba1c7943a8cbd035e149abd
-  - enabled: 0
+    path: Assets/Scenes/Valmira.unity
+    guid: 19900cf17b9d1ce4084b128f16ab8d8a
+  - enabled: 1
     path: Assets/Scenes/Serdalia.unity
     guid: 9fecf8aa9c280c340a7fc968fbf6b035
   - enabled: 1
@@ -44,12 +44,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Compartimento 2.unity
     guid: eeb6cf77c1f7d44fbb4808e486cca4b0
-  - enabled: 0
-    path: "Assets/Scenes/Serd\xE1liaGABY.unity"
-<<<<<<< HEAD
+  - enabled: 1
+    path: "Assets/Scenes/Serd\xE1liaEXT.unity"
     guid: f61f8cd5daf4cc846b3d44a84442d6ae
   - enabled: 1
-    path: Assets/Scenes/ValmiraGABY.unity
+    path: Assets/Scenes/ValmiraEXT.unity
     guid: 31f7c771ac0662b4fbc09e65cc6ee2af
   - enabled: 1
     path: Assets/Scenes/Comp_Bouca C.unity
@@ -69,15 +68,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Comp_Bouca WC2.unity
     guid: f0c1e33338cf24191b6f6a0a8e10b5e0
-=======
-    guid: e075d879c6a621147a77bce1c680b5d7
-  - enabled: 0
-    path: Assets/Scenes/ValmiraGABY.unity
-    guid: ddacb59f493670c48abb040e74d29066
-  - enabled: 1
-    path: "Assets/Scenes/Serd\xE1liaEXT.unity"
-    guid: 978327c0ae14e574fa669574ac30a213
->>>>>>> ba60bcaa48eb4e982092ea746e23647388d27173
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
