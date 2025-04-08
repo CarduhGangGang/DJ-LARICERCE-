@@ -804,7 +804,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Casa da Eira
+  m_text: Casa do Pinhal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9c3d66128fe2f34c87758f4e9f82aa1, type: 2}
   m_sharedMaterial: {fileID: 8183487536871162629, guid: a9c3d66128fe2f34c87758f4e9f82aa1, type: 2}
