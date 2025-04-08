@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 2532720032158612083}
   - component: {fileID: 683311703558333706}
   m_Layer: 5
-  m_Name: Navbar 2
+  m_Name: Navbar+X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
