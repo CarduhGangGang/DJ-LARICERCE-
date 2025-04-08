@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: ff18afc59235af54d9f3a3d5db648207
+guid: 13fe5809d779fea4da296eae34369a2d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1988408719644175166
-    second: icon, area_0
-  - first:
-      213: 4459743671901397637
-    second: icon, area_1
-  - first:
-      213: -9071003480620737446
-    second: icon, area_2
-  - first:
-      213: -3531872397113368472
-    second: icon, area_3
+      213: 3061596194631113985
+    second: nextbtn_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -118,87 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icon, area_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 23
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c4d155fdc0c764e0800000000000000
-      internalID: -1988408719644175166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icon, area_1
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 23
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 582aaf8ad3134ed30800000000000000
-      internalID: 4459743671901397637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icon, area_2
+      name: nextbtn_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 19
-        height: 19
+        width: 112
+        height: 156
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5cd44505625d1280800000000000000
-      internalID: -9071003480620737446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icon, area_3
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 0
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 860ec0a74c44cfec0800000000000000
-      internalID: -3531872397113368472
+      spriteID: 10ddcaa9489fc7a20800000000000000
+      internalID: 3061596194631113985
       vertices: []
       indices: 
       edges: []
@@ -239,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -249,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      icon, area_0: -1988408719644175166
-      icon, area_1: 4459743671901397637
-      icon, area_2: -9071003480620737446
-      icon, area_3: -3531872397113368472
+      nextbtn_0: 3061596194631113985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
