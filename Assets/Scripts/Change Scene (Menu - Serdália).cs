@@ -6,7 +6,7 @@ public class LoadSerdalia : MonoBehaviour
 {
 	public void ChangeScene()
 	{
-		SceneManager.LoadScene("Serdalia"); // Certifique-se de que esse nome está correto no Build Settings
+		SceneManager.LoadScene("Serdalia");
 	}
 
 	void Start()
