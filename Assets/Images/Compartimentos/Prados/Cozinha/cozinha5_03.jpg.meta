@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 736d7d812473fc44ca37a5de65723229
+guid: 0d3ffa35669874c41abc58f2aeb484fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4255891388606731710
-    second: OverlayCastanho2_0
+      213: 3351846416955128451
+    second: cozinha5_03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OverlayCastanho2_0
+      name: cozinha5_03_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 441
-        height: 323
+        width: 469
+        height: 768
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb55c845ba6ff0b30800000000000000
-      internalID: 4255891388606731710
+      spriteID: 38ab640be86248e20800000000000000
+      internalID: 3351846416955128451
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      OverlayCastanho2_0: 4255891388606731710
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
