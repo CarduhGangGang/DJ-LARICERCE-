@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class InfiniteCardSlider : MonoBehaviour
 {
-    // Lista de cartões prefab
+    // Lista prefab
     public List<GameObject> cardPrefabs = new List<GameObject>();
 
-    // Transform pai onde os cartões serão exibidos
+    // Transform parent onde os cartões serão exibidos
     public Transform displayPoint;
 
     // Área de visualização - referência ao RectTransform do container
@@ -18,10 +18,10 @@ public class InfiniteCardSlider : MonoBehaviour
     public Button prevButton;
     public Button nextButton;
 
-    // Índice do cartão central
+    //Cartão central
     private int currentCardIndex = 0;
 
-    // Referências aos cartões visíveis
+    //Cartões visíveis
     private GameObject leftCard, centerCard, rightCard;
 
     // Configurações do layout
@@ -36,7 +36,7 @@ public class InfiniteCardSlider : MonoBehaviour
     public float sideCardTilt = 15f;        // Inclinação dos cards laterais em graus
     
     // Referência para o tamanho real dos prefabs
-    [Tooltip("Ative para considerar o tamanho real do prefab e não apenas o RectTransform")]
+    [Tooltip("Ativo para considerar o tamanho real do prefab e não apenas o RectTransform")]
     public bool useRealPrefabSize = true;
     
     // Configurações da animação
@@ -103,7 +103,7 @@ public class InfiniteCardSlider : MonoBehaviour
             Vector3[] corners = new Vector3[4];
             rt.GetWorldCorners(corners);
             
-            // Converter posições mundiais para locais em relação ao card
+            // Converter posições globais para locais em relação ao card
             for (int i = 0; i < 4; i++)
             {
                 corners[i] = card.transform.InverseTransformPoint(corners[i]);

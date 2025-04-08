@@ -10,14 +10,14 @@ public class RoomCardController : MonoBehaviour
     public GameObject infoOverlay;
     public TextMeshProUGUI infoContent;
 
-    [Header("InformaÁıes da Divis„o")]
+    [Header("Informa√ß√µes da Divis√£o")]
     [TextArea(4, 6)]
-    public string roomInfo = "ï ¡rea: 10m≤\nï Banheira de Hidromassagem\nï Aquecimento de Pavimento\nï Revestimento em Madeira";
+    public string roomInfo = "√Årea: 10m¬≤\n Banheira de Hidromassagem\n Aquecimento de Pavimento\n Revestimento em Madeira";
 
-    // ReferÍncia ao gestor de cards
+    // Refer√™ncia ao gestor de cards
     private CardsManager cardsManager;
 
-    // Vari·vel para verificar o estado do overlay
+    // Vari√°vel para verificar o estado do overlay
     private bool isOverlayActive = false;
 
     void Start()
@@ -25,12 +25,12 @@ public class RoomCardController : MonoBehaviour
         // Procura o CardsManager na cena
         cardsManager = Object.FindFirstObjectByType<CardsManager>();
 
-        //O overlay comeÁa desativado
+        //O overlay come√ßa desativado
         if (infoOverlay != null)
             infoOverlay.SetActive(false);
     }
 
-    // MÈtodo chamado quando o card È clicado
+    // M√©todo chamado quando o card √© clicado
     public void ToggleInfoOverlay()
     {
         // Inverte o estado do overlay
@@ -38,14 +38,14 @@ public class RoomCardController : MonoBehaviour
 
         if (isOverlayActive)
         {
-            /* Atualiza o conte˙do e ativa o overlay
+            /* Atualiza o conte√∫do e ativa o overlay
             if (infoContent != null)
                 infoContent.text = roomInfo;*/
 
             if (infoOverlay != null)
                 infoOverlay.SetActive(true);
 
-            // Informa o CardsManager que este card est· ativo
+            // Informa o CardsManager que este card est√° ativo
             if (cardsManager != null)
                 cardsManager.SetActiveCard(this);
         }
@@ -56,7 +56,7 @@ public class RoomCardController : MonoBehaviour
         }
     }
 
-    // MÈtodo para fechar o overlay 
+    // M√©todo para fechar o overlay 
     public void CloseOverlay()
     {
         isOverlayActive = false;
@@ -64,12 +64,12 @@ public class RoomCardController : MonoBehaviour
             infoOverlay.SetActive(false);
     }
 
-    // MÈtodo para abrir o painel de detalhes
+    // M√©todo para abrir o painel de detalhes
     public void OpenDetailPanel()
     {
-        Debug.Log("Abrir detalhes completos desta divis„o");
+        Debug.Log("Abrir detalhes completos desta divisÔøΩo");
 
-        // Desativa o overlay apÛs clicar em "Ver Mais"
+        // Desativa o overlay ap√≥s clicar em "Ver Mais"
         CloseOverlay();
     }
 }

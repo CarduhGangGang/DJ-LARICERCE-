@@ -6,7 +6,7 @@ public class LoadMapa : MonoBehaviour
 {
 	public void ChangeScene()
 	{
-		SceneManager.LoadScene("Mapa"); // Certifique-se de que a cena "Mapa" está no Build Settings
+		SceneManager.LoadScene("Mapa");
 	}
 
 	void Start()

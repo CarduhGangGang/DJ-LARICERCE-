@@ -11,18 +11,48 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mapa.unity
     guid: 33cb105249c111940bebb0555ae1ae63
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Compartimento.unity
     guid: 51a864e689d68494999c6ac5aff6180c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GridDivisoes.unity
     guid: ce2739db2885fb749aec4de889ab6f30
   - enabled: 1
-    path: Assets/Scenes/Valmira.unity
-    guid: f83fb5aba7605ff4b962b72ebd8495c6
-  - enabled: 1
+    path: Assets/Scenes/ValmiraEXT.unity
+    guid: 126f465dcba1c7943a8cbd035e149abd
+  - enabled: 0
     path: Assets/Scenes/Serdalia.unity
-    guid: 37641ec44a421c046aeb6c5ab4f81e2e
+    guid: 9fecf8aa9c280c340a7fc968fbf6b035
+  - enabled: 1
+    path: Assets/Scenes/CasaDoPinhal.unity
+    guid: 7dd7eab4203a77a4196a2a9817527f32
+  - enabled: 1
+    path: Assets/Scenes/CasaDaBouca.unity
+    guid: 80f5e818fc4567547b72f7be7763e570
+  - enabled: 1
+    path: Assets/Scenes/CasaDaVarzea.unity
+    guid: 5d851a22652da6e40989555fd58081b9
+  - enabled: 1
+    path: Assets/Scenes/CasaDoLago.unity
+    guid: c13eabbc70620434983361201466e846
+  - enabled: 1
+    path: Assets/Scenes/CasaDoPrado.unity
+    guid: a6abd076757b6b44cb6ebe4830a8e43f
+  - enabled: 1
+    path: Assets/Scenes/CasaDosCedros.unity
+    guid: 3b489bd4897e49a48a06f8468286988e
+  - enabled: 0
+    path: Assets/Scenes/Compartimento 2.unity
+    guid: eeb6cf77c1f7d44fbb4808e486cca4b0
+  - enabled: 0
+    path: "Assets/Scenes/Serd\xE1liaGABY.unity"
+    guid: e075d879c6a621147a77bce1c680b5d7
+  - enabled: 0
+    path: Assets/Scenes/ValmiraGABY.unity
+    guid: ddacb59f493670c48abb040e74d29066
+  - enabled: 1
+    path: "Assets/Scenes/Serd\xE1liaEXT.unity"
+    guid: 978327c0ae14e574fa669574ac30a213
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
