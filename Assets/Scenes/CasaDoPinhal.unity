@@ -324,6 +324,17 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &179708897 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6874548339968366632, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+  m_PrefabInstance: {fileID: 867983134}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &594045221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -737,16 +748,89 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomCard
       objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 867983137}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 179708897}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NavigateToScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateFontAsset
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneNavigator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4682422559484460687, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 867983137}
   m_SourcePrefab: {fileID: 100100000, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
 --- !u!224 &867983135 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4719770345494250059, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
   m_PrefabInstance: {fileID: 867983134}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &867983136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4682422559484460687, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+  m_PrefabInstance: {fileID: 867983134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &867983137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867983136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828e55fd11f30e4a9e18f47b9174e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: Compartimento 2
 --- !u!1 &968994898
 GameObject:
   m_ObjectHideFlags: 0
