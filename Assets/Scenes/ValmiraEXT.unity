@@ -1185,6 +1185,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
   m_PrefabInstance: {fileID: 1265246021248167385}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1463293823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463293822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828e55fd11f30e4a9e18f47b9174e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: CasaDoLago
 --- !u!1 &1774050851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,6 +1326,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2065632465}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NavigateToScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneNavigator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 500250798751794112, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1661,13 +1690,29 @@ PrefabInstance:
     - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2065632465}
   m_SourcePrefab: {fileID: 100100000, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
 --- !u!1 &2065632460 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
   m_PrefabInstance: {fileID: 2065632458}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2065632465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065632460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828e55fd11f30e4a9e18f47b9174e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: CasaDoPinhal
 --- !u!1001 &2075869374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1676,6 +1721,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2075869381}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NavigateToScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneNavigator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 500250798751794112, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2028,13 +2089,29 @@ PrefabInstance:
     - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2075869381}
   m_SourcePrefab: {fileID: 100100000, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
 --- !u!1 &2075869376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
   m_PrefabInstance: {fileID: 2075869374}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2075869381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075869376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828e55fd11f30e4a9e18f47b9174e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: CasaDoPrado
 --- !u!1 &2114931214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,6 +2226,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1463293823}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NavigateToScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneNavigator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 319357999095036713, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 500250798751794112, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2481,7 +2574,10 @@ PrefabInstance:
     - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1463293823}
   m_SourcePrefab: {fileID: 100100000, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
