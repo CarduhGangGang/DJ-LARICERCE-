@@ -5,13 +5,13 @@ using UnityEngine.EventSystems; // Adicionar este import
 
 public class CardsManager : MonoBehaviour
 {
-    // Referência para o card atualmente ativo
+    // ReferÃªncia para o card atualmente ativo
     private RoomCardController activeCard;
 
-    // Método para ativar um card e desativar o anterior
+    // MÃ©todo para ativar um card e desativar o anterior
     public void SetActiveCard(RoomCardController newActiveCard)
     {
-        // Se temos um card ativo e é diferente do novo, desativa-o
+        // Se temos um card ativo e Ã© diferente do novo, desativa-o
         if (activeCard != null && activeCard != newActiveCard)
         {
             activeCard.CloseOverlay();
@@ -20,7 +20,7 @@ public class CardsManager : MonoBehaviour
         activeCard = newActiveCard;
     }
 
-    // Método para limpar quando clicamos fora dos cards
+    // MÃ©todo para limpar quando clicamos fora dos cards
     public void ClearActiveCard()
     {
         if (activeCard != null)
@@ -30,13 +30,13 @@ public class CardsManager : MonoBehaviour
         }
     }
 
-    // Adicionar este método para verificar cliques
+    // Adicionar este mÃ©todo para verificar cliques
     void Update()
     {
-        // Só verifica se houver um card ativo e se o utilizador clicar
+        // SÃ³ verifica se houver um card ativo e se o utilizador clicar
         if (activeCard != null && Input.GetMouseButtonDown(0))
         {
-            // Lança um raio a partir da posição do rato
+            // Cria um novo evento de clique do mouse
             PointerEventData eventData = new PointerEventData(EventSystem.current);
             eventData.position = Input.mousePosition;
 
@@ -56,7 +56,7 @@ public class CardsManager : MonoBehaviour
                 }
             }
 
-            // Se o clique não foi no card ativo, fecha o overlay
+            // Se o clique nÃ£o foi no card ativo, fecha o overlay
             if (!clickedOnActiveCard)
             {
                 ClearActiveCard();

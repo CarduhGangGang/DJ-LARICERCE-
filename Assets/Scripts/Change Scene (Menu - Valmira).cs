@@ -6,7 +6,7 @@ public class LoadValmira : MonoBehaviour
 {
 	public void ChangeScene()
 	{
-		SceneManager.LoadScene("Valmira"); // Certifique-se de que esse nome está correto no Build Settings
+		SceneManager.LoadScene("Valmira");
 	}
 
 	void Start()
