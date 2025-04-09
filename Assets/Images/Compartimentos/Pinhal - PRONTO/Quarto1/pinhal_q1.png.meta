@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 31b197e1b93c7446d851b2a8b303db57
+guid: e3c3246242b5545c1b9b770461d9c0e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3964637704774516341
-    second: wc2_0
+      213: 328866354786443225
+    second: lago_q1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wc2_0
+      name: lago_q1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b818bc75307caf8c0800000000000000
-      internalID: -3964637704774516341
+      spriteID: 9df9f9f053e509400800000000000000
+      internalID: 328866354786443225
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wc2_0: -3964637704774516341
+      lago_q1_0: 328866354786443225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

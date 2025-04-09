@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 31b197e1b93c7446d851b2a8b303db57
+guid: 67a0a6044118a498d9928a16453de6b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3964637704774516341
-    second: wc2_0
+      213: -5364618026821993006
+    second: pinhal_wc2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wc2_0
+      name: pinhal_wc2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b818bc75307caf8c0800000000000000
-      internalID: -3964637704774516341
+      spriteID: 2dd3e9bd35c0d85b0800000000000000
+      internalID: -5364618026821993006
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wc2_0: -3964637704774516341
+      pinhal_wc2_0: -5364618026821993006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3f48a4a88a104466bb4846fb2c472fca
+guid: 7639d888eb4d54f98a893715ab9a8a1a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6110958161215880245
-    second: casa6_wc2_0
+      213: 4143945784386895494
+    second: prados_q2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: casa6_wc2_0
+      name: prados_q2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53cfb84021c7ec450800000000000000
-      internalID: 6110958161215880245
+      spriteID: 68ebbde3cb0428930800000000000000
+      internalID: 4143945784386895494
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      casa6_wc2_0: 6110958161215880245
+      prados_q2_0: 4143945784386895494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
