@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      casa5_wc2_02_0: -843374056107296952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
