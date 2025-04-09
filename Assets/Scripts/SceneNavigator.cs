@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necessário para carregar cenas
+using UnityEngine.SceneManagement; 
 
 public class SceneNavigator : MonoBehaviour
 {
-    // Nome da cena a carregar quando este botão for clicado
+    // carrega cena especifica quando este botão for clicado
     public string targetSceneName;
 
     // Método que será chamado pelo botão 
