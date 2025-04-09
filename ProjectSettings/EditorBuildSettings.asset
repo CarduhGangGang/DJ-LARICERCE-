@@ -17,29 +17,29 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GridDivisoes.unity
     guid: ce2739db2885fb749aec4de889ab6f30
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Valmira.unity
     guid: 19900cf17b9d1ce4084b128f16ab8d8a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Serdalia.unity
     guid: 9fecf8aa9c280c340a7fc968fbf6b035
   - enabled: 1
-    path: Assets/Scenes/CasaDoPinhal.unity
+    path: Assets/Scenes/ScenesRV/CasaDoPinhal.unity
     guid: 7dd7eab4203a77a4196a2a9817527f32
   - enabled: 1
-    path: Assets/Scenes/CasaDaBouca.unity
+    path: Assets/Scenes/ScenesRV/CasaDaBouca.unity
     guid: 80f5e818fc4567547b72f7be7763e570
   - enabled: 1
-    path: Assets/Scenes/CasaDaVarzea.unity
+    path: Assets/Scenes/ScenesRV/CasaDaVarzea.unity
     guid: 5d851a22652da6e40989555fd58081b9
   - enabled: 1
-    path: Assets/Scenes/CasaDoLago.unity
+    path: Assets/Scenes/ScenesRV/CasaDoLago.unity
     guid: c13eabbc70620434983361201466e846
   - enabled: 1
-    path: Assets/Scenes/CasaDoPrado.unity
+    path: Assets/Scenes/ScenesRV/CasaDoPrado.unity
     guid: a6abd076757b6b44cb6ebe4830a8e43f
   - enabled: 1
-    path: Assets/Scenes/CasaDosCedros.unity
+    path: Assets/Scenes/ScenesRV/CasaDosCedros.unity
     guid: 3b489bd4897e49a48a06f8468286988e
   - enabled: 0
     path: Assets/Scenes/Compartimento 2.unity

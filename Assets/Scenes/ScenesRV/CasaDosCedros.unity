@@ -324,17 +324,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &179708897 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6874548339968366632, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-  m_PrefabInstance: {fileID: 867983134}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &594045221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -346,6 +335,10 @@ PrefabInstance:
     - target: {fileID: 366069998110296292, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
       value: Quarto de Casal
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461614845135526844, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2719398482982236287, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_Sprite
@@ -441,8 +434,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 18.5m\xB2\n\u2022 Orienta\xE7\xE3o solar: Nascente\n\u2022
-        Roupeiro embutido (2,5m)\n\u2022 Janela de vidro duplo"
+      value: "- \xC1rea: 20m\xB2\r\n- Cama com comando el\xE9trico\r\n- Roupeiro
+        com interior iluminado\r\n- TV oculta em painel"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -639,8 +632,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 16,4m\xB2\r\n\u2022 Totalmente equipada\n\u2022 M\xF3veis
-        em acabamento mate\n\u2022 Despensa integrada (2,1 m\xB2)"
+      value: "- \xC1rea: 13m\xB2\r\n- Arm\xE1rios em nogueira\r\n- Frigor\xEDfico
+        de dupla porta\r\n- M\xE1quina de vinho integrada"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_margin.w
+      value: -85.97803
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857619309764783946, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -660,6 +661,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 10238500}
     m_Modifications:
+    - target: {fileID: 2461614845135526844, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4287102724410843566, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 50
@@ -748,89 +753,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomCard
       objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 867983137}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 179708897}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NavigateToScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: UpdateFontAsset
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneNavigator, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: TMPro.TextMeshProUGUI, Unity.TextMeshPro
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5426514931958418037, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+    - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_text
+      value: "- \xC1rea: 7m\xB2\r\n- Duche sensorial\r\n- Aquecimento infravermelhos\r\n-
+        Colunas \xE0 prova de \xE1gua"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4682422559484460687, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 867983137}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
 --- !u!224 &867983135 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4719770345494250059, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
   m_PrefabInstance: {fileID: 867983134}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &867983136 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4682422559484460687, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
-  m_PrefabInstance: {fileID: 867983134}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &867983137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867983136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6828e55fd11f30e4a9e18f47b9174e13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetSceneName: Compartimento 2
 --- !u!1 &968994898
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +825,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Casa do Pinhal
+  m_text: Casa dos Cedros
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9c3d66128fe2f34c87758f4e9f82aa1, type: 2}
   m_sharedMaterial: {fileID: 8183487536871162629, guid: a9c3d66128fe2f34c87758f4e9f82aa1, type: 2}
@@ -1077,8 +1014,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 6,2m\xB2\r\n\u2022 Duche independente\n\u2022 Lavat\xF3rio
-        duplo\n\u2022 Espelho com ilumina\xE7\xE3o LED "
+      value: "- \xC1rea: 6,5m\xB2\r\n- Duche em m\xE1rmore\r\n- Aquecimento de toalhas\r\n-
+        Espelho com aumento"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1264,8 +1201,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 10m\xB2\r\n\u2022 Guarda Roupa Embutido\n\u2022 Cama
-        Individual\n\u2022 Soalho Flutuante "
+      value: "- \xC1rea: 10,5m\xB2\r\n- Sof\xE1-cama designer\r\n- Mesa de trabalho\r\n-
+        Mini-bar discreto "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1616,8 +1553,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 32,8m\xB2\r\n\u2022 Pavimento - soalho de madeira\n\u2022
-        Ilumina\xE7\xE3o ambiente regul\xE1vel\n\u2022 Estores motorizados"
+      value: "- \xC1rea: 29m\xB2\r\n- Sistema de som Dolby\r\n- Sof\xE1 com chaise
+        longue\r\n- Janelas do ch\xE3o ao tecto"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_margin.w
+      value: -92.11926
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

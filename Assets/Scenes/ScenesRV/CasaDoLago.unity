@@ -336,6 +336,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Quarto de Casal
       objectReference: {fileID: 0}
+    - target: {fileID: 2461614845135526844, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2719398482982236287, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -430,8 +434,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 18.5m\xB2\n\u2022 Orienta\xE7\xE3o solar: Nascente\n\u2022
-        Roupeiro embutido (2,5m)\n\u2022 Janela de vidro duplo"
+      value: "- \xC1rea: 18m\xB2\r\n- Cama Queen Size\r\n- Roupeiro embutido\r\n-
+        Varanda com vista para o lago"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472962443537772677, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 138.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472962443537772677, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -124.43506
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -542,6 +554,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 4682422559484460687, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4719770345494250059, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -628,8 +644,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 16,4m\xB2\r\n\u2022 Totalmente equipada\n\u2022 M\xF3veis
-        em acabamento mate\n\u2022 Despensa integrada (2,1 m\xB2)"
+      value: "- \xC1rea: 15m\xB2\r\n- Ilha central\r\n- Eletrodom\xE9sticos de alta
+        gama\r\n- Exaustor silencioso"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_margin.w
+      value: -92.1192
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -993,8 +1013,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 6,2m\xB2\r\n\u2022 Duche independente\n\u2022 Lavat\xF3rio
-        duplo\n\u2022 Espelho com ilumina\xE7\xE3o LED "
+      value: "- \xC1rea: 6,2m\xB2\r\n- Duche independente\r\n- Lavat\xF3rio duplo\r\n-
+        Espelho com ilumina\xE7\xE3o LED"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1180,8 +1200,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 10m\xB2\r\n\u2022 Guarda Roupa Embutido\n\u2022 Cama
-        Individual\n\u2022 Soalho Flutuante "
+      value: "- \xC1rea: 10m\xB2\r\n- Guarda Roupa Embutido\r\n- Cama Individual\r\n-
+        Secret\xE1ria Flutuante "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1532,8 +1552,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_text
-      value: "\u2022 \xC1rea: 32,8m\xB2\r\n\u2022 Pavimento - soalho de madeira\n\u2022
-        Ilumina\xE7\xE3o ambiente regul\xE1vel\n\u2022 Estores motorizados"
+      value: "- \xC1rea: 28m\xB2\r\n- Lareira a lenha\r\n- Smart TV 55\"\r\n- Sof\xE1
+        panor\xE2mico"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472962443537772677, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 142.1193
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472962443537772677, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -126.05963
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
