@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pinhal_wc1_0: -1849565345932021583
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
