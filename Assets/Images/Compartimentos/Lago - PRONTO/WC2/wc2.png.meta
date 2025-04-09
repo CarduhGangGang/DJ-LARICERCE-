@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a2d5b917abf6345cb950f22371abf938
+guid: 31b197e1b93c7446d851b2a8b303db57
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5301093760706111374
-    second: casa3_wc2_0
+      213: -3964637704774516341
+    second: wc2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: casa3_wc2_0
+      name: wc2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e876def50b4419940800000000000000
-      internalID: 5301093760706111374
+      spriteID: b818bc75307caf8c0800000000000000
+      internalID: -3964637704774516341
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      casa3_wc2_0: 5301093760706111374
+      wc2_0: -3964637704774516341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
