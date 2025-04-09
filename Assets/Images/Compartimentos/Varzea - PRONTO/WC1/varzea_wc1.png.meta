@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      varzea_wc1_0: 211104567199694273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
