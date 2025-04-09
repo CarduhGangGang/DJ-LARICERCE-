@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b61e0d368f08f4e4a9708b2160894a79
+guid: e6564341c89154630a04dcaded578aa0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8771724463879960312
-    second: varzea_wc2_0
+      213: -280909088800906721
+    second: cedros__q2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: varzea_wc2_0
+      name: cedros__q2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f63b21ecec6bb970800000000000000
-      internalID: 8771724463879960312
+      spriteID: f12e7db0ca20a1cf0800000000000000
+      internalID: -280909088800906721
       vertices: []
       indices: 
       edges: []

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3f48a4a88a104466bb4846fb2c472fca
+guid: 5f5601cbdb413467c94c037b9a6b2ea7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6110958161215880245
-    second: casa6_wc2_0
+      213: 7008061707497182402
+    second: varzea__wc2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: casa6_wc2_0
+      name: varzea__wc2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53cfb84021c7ec450800000000000000
-      internalID: 6110958161215880245
+      spriteID: 2c4136f1ef2a14160800000000000000
+      internalID: 7008061707497182402
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      casa6_wc2_0: 6110958161215880245
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
