@@ -6,17 +6,41 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
+    path: "Assets/Scenes/In\xEDcio.unity"
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+=======
+<<<<<<< HEAD
+    path: Assets/Scenes/Comp_Lago C.unity
+    guid: 475dedf18866b47a3924b605a83b19b0
+>>>>>>> b0309ee1f4901ecfaf2db2528adb89d978d45a96
+  - enabled: 1
+    path: "Assets/Scenes/Serd\xE1liaEXT.unity"
+    guid: f61f8cd5daf4cc846b3d44a84442d6ae
+  - enabled: 1
+<<<<<<< HEAD
+    path: "Assets/Scenes/Serd\xE1liaEXT.unity"
+    guid: f61f8cd5daf4cc846b3d44a84442d6ae
+  - enabled: 1
+    path: Assets/Scenes/ValmiraEXT.unity
+    guid: 31f7c771ac0662b4fbc09e65cc6ee2af
+=======
+    path: Assets/Scenes/ValmiraEXT.unity
+    guid: 31f7c771ac0662b4fbc09e65cc6ee2af
+  - enabled: 1
+    path: Assets/Scenes/Mapa.unity
+    guid: 33cb105249c111940bebb0555ae1ae63
+=======
     path: "Assets/Scenes/In\xEDcio.unity"
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/Mapa.unity
     guid: 33cb105249c111940bebb0555ae1ae63
   - enabled: 1
-    path: "Assets/Scenes/Serd\xE1liaEXT.unity"
-    guid: f61f8cd5daf4cc846b3d44a84442d6ae
-  - enabled: 1
-    path: Assets/Scenes/ValmiraEXT.unity
-    guid: 31f7c771ac0662b4fbc09e65cc6ee2af
+    path: Assets/Scenes/ScenesRV/CasaDoPinhal.unity
+    guid: 7dd7eab4203a77a4196a2a9817527f32
+>>>>>>> e7f747db5d3c8ac93e130816a856d8334b78c3b3
+>>>>>>> b0309ee1f4901ecfaf2db2528adb89d978d45a96
   - enabled: 1
     path: Assets/Scenes/ScenesRV/CasaDaBouca.unity
     guid: 80f5e818fc4567547b72f7be7763e570
@@ -30,11 +54,28 @@ EditorBuildSettings:
     path: Assets/Scenes/ScenesRV/CasaDoPinhal.unity
     guid: 7dd7eab4203a77a4196a2a9817527f32
   - enabled: 1
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e7f747db5d3c8ac93e130816a856d8334b78c3b3
+>>>>>>> b0309ee1f4901ecfaf2db2528adb89d978d45a96
     path: Assets/Scenes/ScenesRV/CasaDoPrado.unity
     guid: a6abd076757b6b44cb6ebe4830a8e43f
   - enabled: 1
     path: Assets/Scenes/ScenesRV/CasaDosCedros.unity
     guid: 3b489bd4897e49a48a06f8468286988e
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  - enabled: 1
+    path: "Assets/Scenes/Serd\xE1liaEXT.unity"
+    guid: f61f8cd5daf4cc846b3d44a84442d6ae
+  - enabled: 1
+    path: Assets/Scenes/ValmiraEXT.unity
+    guid: 31f7c771ac0662b4fbc09e65cc6ee2af
+>>>>>>> e7f747db5d3c8ac93e130816a856d8334b78c3b3
+>>>>>>> b0309ee1f4901ecfaf2db2528adb89d978d45a96
   - enabled: 1
     path: Assets/Scenes/Comp_Bouca C.unity
     guid: 0f56356ee81ab9d48addd8ae0a339882
@@ -143,5 +184,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Comp_Varzea WC2.unity
     guid: 898747bddef99429987644fefcfde343
+<<<<<<< HEAD
   m_configObjects: {}
+<<<<<<< HEAD
+=======
+=======
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+>>>>>>> e7f747db5d3c8ac93e130816a856d8334b78c3b3
+>>>>>>> b0309ee1f4901ecfaf2db2528adb89d978d45a96
   m_UseUCBPForAssetBundles: 0
