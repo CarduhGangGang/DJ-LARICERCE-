@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 4996949c82af9a44cbe53fb25d196586
+guid: c00678ca5f0e0474cb423b1178b081bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8385648909473177444
-    second: LocationsIcons_0
+      213: 285980761035871005
+    second: "Firefly cria um mapa simples estilo google maps, mas que n\xE3o exista
+      na vida real, sem qualquer texto_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +114,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LocationsIcons_0
+      name: "Firefly cria um mapa simples estilo google maps, mas que n\xE3o exista
+        na vida real, sem qualquer texto_0"
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 251
-        height: 297
+        x: 0
+        y: 0
+        width: 1152
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c90a5b3feb030ab80800000000000000
-      internalID: -8385648909473177444
+      spriteID: d13932aacf108f300800000000000000
+      internalID: 285980761035871005
       vertices: []
       indices: 
       edges: []
@@ -147,7 +149,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Firefly cria um mapa simples estilo google maps, mas que n\xE3o exista na vida real, sem qualquer texto_0": 285980761035871005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
