@@ -813,7 +813,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!1 &759540294
 GameObject:
@@ -1143,6 +1143,10 @@ PrefabInstance:
     - target: {fileID: 463491134073173803, guid: 84419468c3f9d9d40817a1c84ddec40e, type: 3}
       propertyPath: m_Name
       value: Navbar
+      objectReference: {fileID: 0}
+    - target: {fileID: 463491134073173803, guid: 84419468c3f9d9d40817a1c84ddec40e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2564577514390493194, guid: 84419468c3f9d9d40817a1c84ddec40e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1492,6 +1496,10 @@ PrefabInstance:
     - target: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_Name
       value: cardExtCasa2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3466015984474788037, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1891,6 +1899,10 @@ PrefabInstance:
     - target: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_Name
       value: cardExtCasa3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3466015984474788037, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2388,6 +2400,10 @@ PrefabInstance:
     - target: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_Name
       value: cardExtCasa1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447497591973278838, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3466015984474788037, guid: 63284eb387606334d8a2d4b2873b31e3, type: 3}
       propertyPath: m_AnchorMax.y
