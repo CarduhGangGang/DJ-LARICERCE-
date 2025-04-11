@@ -707,6 +707,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4682527140493960448, guid: ef1044751a3b64665af5590983516454, type: 3}
+      propertyPath: m_text
+      value: Casa de Banho 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6374406912650588589, guid: ef1044751a3b64665af5590983516454, type: 3}
       propertyPath: m_Name
       value: sliderCompartimento

@@ -823,7 +823,7 @@ PrefabInstance:
       objectReference: {fileID: 815252343264610579, guid: ba7a0997a6a7b4682b54697110d3745e, type: 3}
     - target: {fileID: 1563758996121702781, guid: ef1044751a3b64665af5590983516454, type: 3}
       propertyPath: m_text
-      value: Casa da Bouca
+      value: "Casa da Bou\xE7a"
       objectReference: {fileID: 0}
     - target: {fileID: 1901013156538789367, guid: ef1044751a3b64665af5590983516454, type: 3}
       propertyPath: m_AnchorMax.y
@@ -896,6 +896,12 @@ PrefabInstance:
     - target: {fileID: 4374190120671345063, guid: ef1044751a3b64665af5590983516454, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4682527140493960448, guid: ef1044751a3b64665af5590983516454, type: 3}
+      propertyPath: m_text
+      value: 'Sala de Estar
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 6374406912650588589, guid: ef1044751a3b64665af5590983516454, type: 3}
       propertyPath: m_Name
