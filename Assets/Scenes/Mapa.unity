@@ -860,7 +860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6828e55fd11f30e4a9e18f47b9174e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: Valmira
+  targetSceneName: ValmiraEXT
 --- !u!114 &1912207303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1045,7 +1045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6828e55fd11f30e4a9e18f47b9174e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: "Serd\xE1lia"
+  targetSceneName: "Serd\xE1liaEXT"
 --- !u!114 &2059900203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1276,6 +1276,7 @@ RectTransform:
   - {fileID: 145200336}
   - {fileID: 2059900199}
   - {fileID: 1912207301}
+  - {fileID: 3322736158791414405}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
