@@ -395,6 +395,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.60498047
       objectReference: {fileID: 0}
+    - target: {fileID: 2461614845135526844, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2719398482982236287, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -648,7 +652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2461614845135526844, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2719398482982236287, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_Sprite
@@ -961,6 +965,11 @@ PrefabInstance:
     - target: {fileID: 5446185200685249929, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: pressedColor.r
       value: 0.94716984
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994304959238537506, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
+      propertyPath: m_text
+      value: "\u2022 \xC1rea: 10m\xB2\\n\u2022 Banheira de Hidromassagem\\n\u2022
+        Aquecimento de Pavimento\\n\u2022 Revestimento em Madeira"
       objectReference: {fileID: 0}
     - target: {fileID: 6548404860037609580, guid: 523e12b9c387d4f419dc581f7aab1676, type: 3}
       propertyPath: m_IsActive
